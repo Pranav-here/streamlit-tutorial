@@ -93,7 +93,7 @@ progress_bar = st.progress(0)
 for i in range(5):
     progress_text.text(f"Processing {i+1}/5...")
     progress_bar.progress((i+1) * 20)
-    time.sleep(0.1)
+    time.sleep(1)
 
 # --- ADVANCED CONCEPTS SECTION ---
 st.header("🧠 Advanced Streamlit Concepts")
